@@ -1,13 +1,15 @@
-*, *::before,  *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
 }
 
-body{
+body {
   padding: 0;
   margin: 0;
-  background: linear-gradient(to right, #00AAFF, #00FF6C);
+  background: linear-gradient(to right, #0af, #00ff6c);
 }
 
 .calc-grid {
@@ -32,13 +34,13 @@ body{
   word-break: break-all;
 }
 
-.output .prev-operand{
-  color:rgba(255, 255, 255, .75);
+.output .prev-operand {
+  color: rgba(255, 255, 255, 0.75);
   font-size: 1.2rem;
 }
 
 .output .cur-operand {
-  color:white;
+  color: white;
   font-size: 1.7rem;
 }
 
@@ -65,5 +67,5 @@ body{
 }
 
 .calc-grid .do-math:hover {
-  background:rgb(255, 115, 0)
+  background: rgb(255, 115, 0);
 }
