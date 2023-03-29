@@ -1,13 +1,3 @@
-// const buttons = [
-//   'AC','+/-','%','÷','7','8','9','x','4','5','6','-','1','2','3','+','0','.','=',
-// ]
-
-// function Display() {
-//     return (
-//        buttons.map(item => <button>{item}</button>)
-//     )
-// }
-
 export default function Calculator() {
   return (
     <div className="calc-grid">
