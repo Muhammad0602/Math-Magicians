@@ -17,8 +17,8 @@ body {
   justify-content: center;
   align-content: center;
   min-height: 100vh;
-  grid-template-columns: repeat(4, 9rem);
-  grid-template-rows: minmax(5rem, auto) repeat(5, 5rem);
+  grid-template-columns: repeat(4, 7rem);
+  grid-template-rows: minmax(4rem, auto) repeat(5, 5rem);
 }
 
 .calc-grid .output {
@@ -50,7 +50,7 @@ body {
   outline: none;
   background: rgb(232, 229, 229);
   cursor: pointer;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .calc-grid > button:hover {

@@ -53,7 +53,7 @@ This is a simple website for math fans. You can do calculations as well as read 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- not available
+[Visit Live]( https://muhammad0602.github.io/Math-Magicians/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
