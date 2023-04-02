@@ -106,6 +106,7 @@ To run tests.
 
 - Great design improvements on the way.
 - Responsiveness is something I will surely work on.
+- Improving the functionality of the calculator.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
