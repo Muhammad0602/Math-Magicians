@@ -1,9 +1,17 @@
-import React from 'react'
+import React from 'react';
+import './home.css';
 
 function Home() {
   return (
-    <div>Welcome to our Math Magicians website. Where you can do simple math calculations as well as reading education related quotes.</div>
-  )
+    <div className="welcome-page">
+      <p>
+        Welcome to our Math Magicians website.
+      </p>
+      <p>
+        Here you can do simple math calculations as well as read education related quotes.
+      </p>
+    </div>
+  );
 }
 
-export default Home
+export default Home;

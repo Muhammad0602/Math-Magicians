@@ -1,33 +1,33 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-    align-items: center;
-    background: linear-gradient(to right, rgb(78, 14, 3), #035030);
-    box-shadow: 1px 8px 10px 3px black;
-    margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+  background: linear-gradient(to right, rgb(78, 14, 3), #035030);
+  box-shadow: 1px 8px 10px 3px black;
+  margin-bottom: 5rem;
 }
 
 .header h1 {
-    font-size: 3rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .navbar ul {
-    display: flex;
-    gap: 3rem;
-    list-style: none;
+  display: flex;
+  gap: 3rem;
+  list-style: none;
 }
 
 .navbar ul > li a {
-   text-decoration: none;
-   font-size: 1.5rem;
-   color: white;
-   transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  transition: all 0.2s ease-in-out;
 }
 
 .navbar ul > li:hover {
-    transform: scaleX(1.1);
+  transform: scaleX(1.1);
 }
 
 .navbar ul > li a:hover {

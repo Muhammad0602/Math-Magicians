@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import './quote.css';
 
 export default function Quote() {
   const [data, setData] = useState([]);
@@ -31,7 +32,7 @@ export default function Quote() {
 
   return (
     <>
-      <div>
+      <div className="quote-page">
         {data.map((item) => (
           <p key={item.author}>{item.quote}</p>
         ))}
