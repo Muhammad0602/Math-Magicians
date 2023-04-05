@@ -9,63 +9,6 @@
 body {
   padding: 0;
   margin: 0;
-  background: linear-gradient(to right, #0af, #00ff6c);
-}
-
-.calc-grid {
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  min-height: 100vh;
-  grid-template-columns: repeat(4, 7rem);
-  grid-template-rows: minmax(4rem, auto) repeat(5, 5rem);
-}
-
-.calc-grid .output {
-  grid-column: 1 / -1;
-  background: rgb(92, 92, 92);
+  background: linear-gradient(to right, rgb(27, 161, 179), #11ac51);
   color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-end;
-  padding: 10px;
-  word-wrap: break-word;
-  word-break: break-all;
-}
-
-.output .prev-operand {
-  color: rgba(255, 255, 255, 0.75);
-  font-size: 1.2rem;
-}
-
-.output .cur-operand {
-  color: white;
-  font-size: 1.7rem;
-}
-
-.calc-grid > button {
-  font-size: 1.5rem;
-  border: 1px solid rgb(119, 116, 116);
-  outline: none;
-  background: rgb(232, 229, 229);
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.calc-grid > button:hover {
-  background: white;
-}
-
-.calc-grid .span-two {
-  grid-column: span 2;
-}
-
-.calc-grid .do-math {
-  background: rgb(237, 150, 21);
-  border-bottom: 1px solid white;
-}
-
-.calc-grid .do-math:hover {
-  background: rgb(255, 115, 0);
 }
